@@ -145,7 +145,7 @@ https://github.com/ehang-io/nps
 https://github.com/shirou/gopsutil
 ```
 
-## fanotify
+## fsnotify
 ```
 本地文件变动监控
 https://github.com/fsnotify/fsnotify
