@@ -34,7 +34,19 @@ https://github.com/fabiolb/fabio
 
 # 图形
 ## caire
-
+```
+resize
+它是如何工作的
+根据提供的图像生成能量图（边缘检测）。
+该算法尝试在考虑最低能量值的情况下找到图像中最不重要的部分。
+使用动态编程方法，该算法将在图像上从上到下或从左到右（取决于水平或垂直调整大小）生成单个接缝，并为每个接缝分配一个自定义值，最不重要的像素具有最低能源成本和最重要的成本最高。
+我们从第二行到最后一行遍历图像，并计算每个条目所有可能连接接缝的累积最小能量。
+通过将当前像素值与从前一行获得的相邻像素的最小值相加来计算最小能量水平。
+我们从上到下遍历图像并计算最小能量水平。对于一行中的每个像素，我们计算当前像素的能量加上其上方三个可能像素之一的能量。
+从最后一行开始的能量矩阵中找到成本最低的接缝并将其删除。
+重复这个过程。
+https://github.com/esimov/caire
+```
 ## imgproxy
 ```
 图片代理服务器(支持resize等)
@@ -50,6 +62,12 @@ https://github.com/disintegration/imaging
 ```
 图片代理服务器
 https://github.com/willnorris/imageproxy
+```
+
+## pigo
+```
+人脸检测
+https://github.com/esimov/pigo
 ```
 
 # 存储
@@ -72,6 +90,12 @@ https://github.com/dgraph-io/ristretto
 ```
 gui框架
 https://github.com/fyne-io/fyne
+```
+
+## gioui
+```
+
+https://gioui.org/#installation
 ```
 
 # 定时任务
