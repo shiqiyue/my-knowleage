@@ -15,3 +15,9 @@ https://github.com/rust-unofficial/awesome-rust
 ```
 https://github.com/RazrFalcon/resvg
 ```
+
+## Rocket
+```
+web 框架
+https://github.com/SergioBenitez/Rocket.git
+```
