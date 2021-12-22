@@ -7,3 +7,4 @@
 ## [软件安装](install/install.md)
 ## [GO](go/go.md)
 ## [nodejs](nodejs/README.md)
+## [svg](svg.md)
